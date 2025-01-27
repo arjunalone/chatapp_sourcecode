@@ -8,10 +8,10 @@
 
 #define PORT 8080
 #define BUF_SIZE 1024
-#define PASSWORD_FILE "client_password.txt"
+#define PASSWORD_FILE "client_passwordfile.txt"
 
-const unsigned char AES_KEY[] = "0123456789012345";
-const unsigned char AES_IV[] = "0123456789012345";
+const unsigned char AES_KEY[] = "0123456789012345";//any key 
+const unsigned char AES_IV[] = "0123456789012345";//any key 
 
 // Function for AES encryption
 int aes_encrypt(const unsigned char *plaintext, int plaintext_len, unsigned char *key,
