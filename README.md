@@ -1,4 +1,9 @@
-# chatapp_sourcecode
-this is a simple application of message transfer under same ip address 
-followed by security mesures encryption and decryption and hashed the same key was used here inorder to make it simple 
-note : while using these code sender and receiver should be in same ip address.if not in check ip_address and change it in source code
+This is a simple application that demonstrates message transfer under the same IP address, along with basic security measures including encryption, decryption, and key hashing.
+
+🔐 Security Note:
+The same key is used for both encryption and decryption to keep the implementation simple.
+
+🌐 IP Address Requirement:
+Both the sender and receiver must be on the same IP address.
+If they are not, please check the ip_address in the source code and update it accordingly.
+
